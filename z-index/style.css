@@ -1,0 +1,31 @@
+.box{
+    height:50%;
+    width: 33%;
+    position: absolute;
+}
+
+.first{
+    background-color: red;
+    margin-left: 0px;
+    z-index: 3;
+}
+
+.second{
+    background-color: green;
+    margin-left: 100px;
+    z-index: 2;
+
+}
+
+.third{
+    background-color: blue;
+    margin-left: 200px;
+    z-index: 1;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}

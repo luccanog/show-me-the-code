@@ -1,0 +1,47 @@
+/* Seletor por ID: #id {...}
+Seletor por nome da class: .classe  {...}
+Seletor por nome da tag: div {...} */
+
+
+/*  
+    > HIGHEST PRIORITY 
+    > !important keyword
+
+    > WORST WAY TO DO IT
+*/
+.important{
+    background-color: blue!important;
+}
+
+
+
+
+/*  
+    > THIRD PRIORITY 
+    > CLASS SELECTOR
+
+    > MOST COMMON WAY TO DO IT
+*/
+.box{
+    height:50%;
+    margin:10px;
+    padding:10px;
+
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}

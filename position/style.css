@@ -1,0 +1,57 @@
+body{
+    height: 1080px;
+}
+.box{
+    padding:1px;
+    width: 33%;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 55550%;
+    background-color:greenyellow;
+}
+
+.fixed{
+    position: fixed;
+    right:5%;
+    bottom:5%
+}
+
+.absolute{
+    background-color: crimson;
+    left: 10%;
+    bottom: 10%;
+    position: absolute;
+    height: 200px;
+}
+
+.absolute .inside-absolute{
+    background-color: fuchsia;
+    position: absolute;
+    height: 50px;
+    right: 0px;
+
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+
+.relative{
+    background-color: blue;
+    left: 50px;
+    /* bottom: 50px; */
+    position: relative;
+    height: 100px;
+    
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+
+.relative .inside-relative{
+
+}
