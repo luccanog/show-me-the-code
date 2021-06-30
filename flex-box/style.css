@@ -1,14 +1,12 @@
 .box{
-width: 15%;
-height: 25%;
-margin: 10px;
+    width: 15%;
+    height: 25%;
+    margin: 10px;
     text-align: center;
     font-weight: bold;
     color: white;
     font-size: larger;
-
     border: 10px dashed white;
-
 }
 
 html {
@@ -24,4 +22,3 @@ body {
     align-items: center;
     background-color: #444;
 }
-
